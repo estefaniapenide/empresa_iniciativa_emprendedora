@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Penide_Estefania_P1_UI</string>
+    <string name="conectar">Connect</string>
+    <string name="usuario">User</string>
+    <string name="password">Password</string>
+    <string name="iniciar">LOG IN</string>
+    <string name="olvidar">Did you forget your password?</string>
+    <string name="titulo">Title</string>
+    <string name="autor">Author</string>
+    <string name="tecTitulo">Type title</string>
+    <string name="tecAutor">Type author</string>
+    <string name="genero">Genre:</string>
+    <string name="ensayo">Essay</string>
+    <string name="ficcion">Fiction</string>
+    <string name="traducido">Tranlated to:</string>
+    <string name="ingles">English</string>
+    <string name="frances">French</string>
+    <string name="aceptar">Accept</string>
+    <string name="volverInicio">Return home</string>
+</resources>

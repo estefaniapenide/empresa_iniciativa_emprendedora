@@ -1,0 +1,4 @@
+fondo maniobra = 18746,8
+rentabilidad economica=20,15
+rentabilidad financiera = 54,54
+Endeudamiento a largo plazo = 43,93

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.penide_estefania_p1_ui">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Penide_Estefania_P1_UI">
+        <activity
+            android:name=".Ej12Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Ej11Activity_2"
+            android:exported="false" />
+        <activity
+            android:name=".Ej9Activity_2"
+            android:exported="false" />
+        <activity
+            android:name=".Ej11_2Activity"
+            android:exported="true" />
+        <activity
+            android:name=".Ej11Activity"
+            android:exported="false"
+            android:label="PantallaLibro" />
+        <activity
+            android:name=".Ej10Activity"
+            android:exported="true"
+            android:label="Login_Linear" />
+        <activity
+            android:name=".Ej9Activity"
+            android:exported="true"
+            android:label="Comentario_ConstrainLayout" />
+        <activity
+            android:name=".Ej8Activity"
+            android:exported="false"
+            android:label="PosBotones_ConstrainLayout" />
+        <activity
+            android:name=".Ej7Activity"
+            android:exported="false"
+            android:label="PosBotones_RelativeLayout" />
+        <activity
+            android:name=".Ej6Activity"
+            android:exported="false"
+            android:label="PosBotones_TableLayout" />
+        <activity
+            android:name=".Ej5Activity"
+            android:exported="false"
+            android:label="PosBotones_LinearLayout" />
+        <activity
+            android:name=".Ej4Activity"
+            android:exported="false"
+            android:label="Navegador_ConstrainLayout" />
+        <activity
+            android:name=".Ej3Activity"
+            android:exported="false"
+            android:label="Navegador_RelativeLayout" />
+        <activity
+            android:name=".Ej2Activity"
+            android:exported="false"
+            android:label="Navegador_TableLayout" />
+        <activity
+            android:name=".Ej1Activity"
+            android:exported="false"
+            android:label="Navegador_LinearLayout" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

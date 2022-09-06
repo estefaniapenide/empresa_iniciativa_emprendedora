@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Ej7Activity"
+
+    android:padding="2dp"
+    android:background="#1110">
+
+
+    <TextView
+        android:id="@+id/textView27"
+        style="@style/TextoGris2"
+        android:text="SUP.IZQ." />
+
+    <TextView
+        android:id="@+id/textView28"
+        style="@style/TextoGris2"
+        android:text="SUP.DCHO."
+        android:layout_alignParentRight="true"/>
+
+    <TextView
+        android:id="@+id/textView29"
+        style="@style/TextoGris2"
+        android:layout_width="match_parent"
+        android:text="CENTRAL"
+        android:layout_centerVertical="true"/>
+
+    <TextView
+        android:id="@+id/textView30"
+        style="@style/TextoGris2"
+        android:text="INF.IZQ."
+        android:layout_alignParentBottom="true"/>
+
+    <TextView
+        android:id="@+id/textView31"
+        style="@style/TextoGris2"
+        android:text="INF.DCHO."
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"/>
+
+    <Button
+        android:id="@+id/button15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Volver a la principal"
+        android:layout_marginTop="110dp"
+        android:layout_marginLeft="90dp"/>
+
+</RelativeLayout>

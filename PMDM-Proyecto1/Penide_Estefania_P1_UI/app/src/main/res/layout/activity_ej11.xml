@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFF99"
+
+    tools:context=".Ej11Activity">
+
+
+    <Button
+        android:id="@+id/bInicio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/volverInicio"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button" />
+
+    <TextView
+        android:id="@+id/tvTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:background="#D3D3D3"
+        android:gravity="center"
+        android:paddingEnd="20dp"
+        android:text="@string/titulo"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/etTitulo"
+        app:layout_constraintEnd_toStartOf="@+id/etTitulo"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/etTitulo" />
+
+    <EditText
+        android:id="@+id/etTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:background="#D3D3D3"
+        android:ems="15"
+        android:hint="@string/tecTitulo"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/etAutor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/tvTitulo"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvAutor"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:background="#D3D3D3"
+        android:gravity="center"
+        android:paddingEnd="20dp"
+        android:text="@string/autor"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/etAutor"
+        app:layout_constraintEnd_toStartOf="@+id/etAutor"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/etAutor" />
+
+    <EditText
+        android:id="@+id/etAutor"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:background="#D3D3D3"
+        android:ems="15"
+        android:hint="@string/tecAutor"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/frameLayout3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/tvAutor"
+        app:layout_constraintTop_toBottomOf="@+id/etTitulo" />
+
+    <FrameLayout
+        android:id="@+id/frameLayout3"
+        android:layout_width="wrap_content"
+        android:layout_height="140dp"
+        android:background="#D3D3D3"
+        android:paddingEnd="80dp"
+        app:layout_constraintBottom_toTopOf="@+id/frameLayout4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etAutor">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="60dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="20dp"
+            app:srcCompat="@drawable/libros" />
+
+        <TextView
+            android:id="@+id/tvTema"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="35dp"
+            android:text="@string/genero"
+            android:textSize="20sp"
+            tools:layout_editor_absoluteX="100dp"
+            tools:layout_editor_absoluteY="295dp" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="60dp"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/rbTecnico"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20dp"
+                android:text="@string/ensayo" />
+
+            <RadioButton
+                android:id="@+id/rbLectura"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ficcion" />
+
+        </RadioGroup>
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/frameLayout4"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:background="#D3D3D3"
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/frameLayout3">
+
+        <TextView
+            android:id="@+id/textView40"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/traducido"
+            android:textSize="20sp" />
+
+        <CheckBox
+            android:id="@+id/cbIngles"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/ingles" />
+
+        <CheckBox
+            android:id="@+id/cbFrances"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="20dp"
+            android:paddingEnd="100dp"
+            android:text="@string/frances" />
+
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/button"
+        style="@style/BOTONES_GRISES"
+        android:text="@string/aceptar"
+        app:layout_constraintBottom_toTopOf="@+id/bInicio"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/frameLayout4" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

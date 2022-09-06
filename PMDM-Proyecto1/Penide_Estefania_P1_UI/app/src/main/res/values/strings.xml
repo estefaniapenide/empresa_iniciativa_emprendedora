@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Penide_Estefania_P1_UI</string>
+    <string name="usuario">Usuario</string>
+    <string name="password">Contraseña</string>
+    <string name="iniciar">INICIAR SESION</string>
+    <string name="olvidar">¿Olvidaste tu contraseña?</string>
+    <string name="conectar">Conectar</string>
+    <string name="titulo">Título</string>
+    <string name="autor">Autor</string>
+    <string name="tecTitulo">Teclea título</string>
+    <string name="tecAutor">Teclea autor</string>
+    <string name="genero">Género:</string>
+    <string name="ensayo">Ensayo</string>
+    <string name="ficcion">Ficción</string>
+    <string name="traducido">Traducido a:</string>
+    <string name="ingles">Inglés</string>
+    <string name="frances">Francés</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="volverInicio">Volver al inicio</string>
+    <string name="bio" translatable="false">Android es un sistema operativo móvil basado en núcleo Linux
+        y otros software de código abierto. Fue diseñado para dispositivos móviles con
+        pantalla táctil, como teléfonos inteligentes, tabletas, relojes inteligentes (Wear OS),
+        automóviles con otros sistemas a través de Android Auto, al igual los automóviles con el
+        sistema Android Automotive y televisores Leanback.\n\n
+        Inicialmente fue desarrollado por Android Inc., que fue adquirido por Google en 2005.
+        Android fue presentado en 2007 junto con la fundación del Open Handset Alliance (un
+        consorcio de compañías de hardware, software y telecomunicaciones) para avanzar en los
+        estándares abiertos de los dispositivos móviles. El código fuente principal de Android
+        se conoce como Android Open Source Project (AOSP), que se licencia principalmente bajo la
+        Licencia Apache. Android es el sistema operativo móvil más utilizado del mundo, con una
+        cuota de mercado superior al 90 % al año 2018, muy por encima de IOS.\n\n
+    </string>
+</resources>
